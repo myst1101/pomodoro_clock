@@ -1,0 +1,119 @@
+.App {
+  text-align: center;
+  border: 2px solid grey;
+  background-color: #282c34;
+  margin: 1rem 30rem;
+  padding-bottom: 5rem;
+  border-radius: 1rem;
+  overflow-y: hidden;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 10s linear;
+  height: 6vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  /*background-color: #282c34;*/
+  /*min-height: 10vh;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.timerbox {
+  width: 15rem;
+  height: 7rem;
+  border: 2px solid grey;
+  margin: 5rem auto;
+  border-radius: 2rem;
+  background-color: dimgray;
+  box-shadow: 10px 10px 24px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 24px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 24px -7px #000000bf;
+}
+
+h2.timerbox-title {
+  display: flex;
+  justify-self: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: #bbb;
+}
+
+.button {
+  padding: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: 1px solid #bbb;
+  overflow: visible;
+  font: bold 13px "RaleWay";
+  text-decoration: none;
+  white-space: nowrap;
+  color: rgb(211, 200, 200);
+  font-weight: bolder;
+  border-radius: 8px;
+  background-color: rgb(56, 54, 54);
+  box-shadow: 10px 10px 24px -7px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 24px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 24px -7px #000000bf;
+}
+.btn-start {
+  color: rgb(99, 216, 99);
+  margin-right: 1rem;
+}
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.break-session {
+  margin-top: 2rem;
+  display: flex;
+  align-content: space-around;
+  justify-content: space-evenly;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h4.timer-title {
+  font-size: 1.5rem;
+}
+
+.brk-display {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+
+.ses-display {
+  display: inline-block;
+  font-size: 2rem;
+  padding: 0 1rem;
+}
+h2.header {
+  margin-top: 0.5rem;
+}
